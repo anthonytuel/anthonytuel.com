@@ -6,7 +6,7 @@ export default ({ data }) => (
   <Layout>
         <div className="main">
     <h1>About Me</h1> 
-    <h3>I've been interested in Technology my whole life.</h3>
+    <h3>I've been interested in Technology my whole life.111</h3>
     <p>
       We're the only site running on your computer dedicated to showing the best
       photos and videos of pandas eating lots of food.
