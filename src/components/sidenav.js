@@ -2,7 +2,7 @@ import React from 'react'
 import Paper from '@material-ui/core/Paper'
 import Divider from '@material-ui/core/Divider'
 import Button from '@material-ui/core/Button'
-import avi from '/Users/amtuel/gatsby/anthonytuel.com/src/images/45245990.jpeg'
+//import avi from '/Users/amtuel/gatsby/anthonytuel.com/src/images/45245990.jpeg'
 import { FaTwitter, FaGithub, FaLinkedin } from 'react-icons/fa';
 import { Link } from 'gatsby'
 
@@ -17,7 +17,6 @@ class SideNav extends React.Component {
             <center>
 
               <div className="relative-avi-wrapper">
-                  <img src={avi} rounded className="avatar" alt="avatar" />
               </div>
 
             </center>
