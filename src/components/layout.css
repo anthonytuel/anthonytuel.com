@@ -1,8 +1,23 @@
 html {
-  font-family: sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
+.sidenav {
+  width: 20%;
+  float: left;
+}
+
+.main {
+  text-align: center;
+}
+
+.avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
 body {
   margin: 0;
 }
@@ -40,6 +55,7 @@ template {
 a {
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
+  text-decoration: none;
 }
 a:active,
 a:hover {
@@ -183,7 +199,7 @@ textarea {
   font: inherit;
 }
 html {
-  font: 112.5%/1.45em georgia, serif;
+  font: 90%/1.45em georgia, serif;
   box-sizing: border-box;
   overflow-y: scroll;
 }
